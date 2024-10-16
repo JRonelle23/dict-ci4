@@ -1,0 +1,260 @@
+CRITICAL - 2024-10-16 06:15:48 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: info]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:15:56 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: info]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:16:30 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: job_posting]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:16:35 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: job_posting]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:17:35 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: job_posting]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:17:59 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: job_posting]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:18:22 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: job_posting]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostingController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:19:51 --> TypeError: CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\dict-ci4\app\Config\Routes.php on line 13
+[Method: GET, Route: job_posting]
+in SYSTEMPATH\Router\RouteCollection.php on line 851.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Router\RouteCollection->resource('/job_posting', 'JobPostsController')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\dict-ci4\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:45:58 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:46:04 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:46:13 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:48:08 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:48:42 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:53:54 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:54:21 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:54:22 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:54:33 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 06:57:04 --> ArgumentCountError: Too few arguments to function App\Controllers\JobPostsController::__construct(), 0 passed in C:\xampp\htdocs\dict-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 903 and exactly 1 expected
+[Method: GET, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\JobPostsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 08:23:57 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\JobPosts"
+[Method: POST, Route: job_posting]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JobPosts')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\JobPostsController.php(42): CodeIgniter\Model->insert(Object(stdClass))
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobPostsController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobPostsController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 08:24:13 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\JobPosts"
+[Method: POST, Route: job_posting]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JobPosts')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\JobPostsController.php(42): CodeIgniter\Model->insert(Object(stdClass))
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobPostsController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobPostsController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 08:24:37 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\JobPosts"
+[Method: POST, Route: job_posting]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\JobPosts')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\JobPostsController.php(42): CodeIgniter\Model->insert(Object(stdClass))
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobPostsController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobPostsController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 08:24:42 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: job_posting]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\JobPostsController.php(41): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobPostsController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobPostsController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
+CRITICAL - 2024-10-16 08:30:51 --> Exception: Allowed fields must be specified for model: "App\Models\JobPosts"
+[Method: POST, Route: job_posting]
+in APPPATH\Controllers\JobPostsController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobPostsController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobPostsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\dict-ci4\\public\\index.php')
