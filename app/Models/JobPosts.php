@@ -8,4 +8,6 @@ class JobPosts extends Model
 {
     protected $table      = 'jobs';
     protected $primaryKey = 'id';
+
+    protected $allowedFields = ['name', 'description', 'salary', 'date_post'];
 }

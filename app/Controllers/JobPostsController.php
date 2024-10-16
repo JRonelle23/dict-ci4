@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use App\Models\JobPosts;
 use CodeIgniter\RESTful\ResourceController;
-use http\Env\Request;
 
 class JobPostsController extends ResourceController
 {
@@ -36,39 +35,51 @@ class JobPostsController extends ResourceController
         return view('pages\jobPosts\new', ['data' => $data]);
     }
 
+
     public function create()
     {
-        $request = $this->request->getJSON();
+        $request = $this->request->getPost();
 
         try {
             $qry = $this->model->insert($request);
-            $data = [
-                'test' => $request
-            ];
 
-            return $this->respond(['data' => $data]);
+            return $this->respond(['data' => $qry]);
         } catch (\Exception $e) {
-            throw new \Exception($e->getMessage(), 403);
+            return $e->getMessage();
         }
     }
 
     public function show($id = null)
     {
-        return $this->respond(['data' => 'test']);
+        $data = $this->model->find($id);
+
+        return $this->respond(['data' => $data]);
     }
 
     public function edit($id = null)
     {
-        return $this->respond(['data' => 'test']);
+        $data = $this->model->find($id);
+
+        return $this->respond(['data' => $data]);
     }
 
     public function update($id = null)
     {
-        return $this->respond(['data' => 'test']);
+        $request = $this->request->getJSON();
+
+        try {
+            $qry = $this->model->update($id, (array) $request);
+
+            return $this->respond(['data' => $qry]);
+        } catch (\Exception $e) {
+            return $e->getMessage();
+        }
     }
 
     public function delete($id = null)
     {
-        return $this->respond(['data' => 'test']);
+        $qry = $this->model->where('id', $id)->delete();
+
+        return $this->respond(['data' => $qry]);
     }
 }
