@@ -7,7 +7,6 @@ use CodeIgniter\RESTful\ResourceController;
 
 class JobPostsController extends ResourceController
 {
-    protected $helpers = ['form'];
     public $model = null;
     public $title = 'Job Posts';
 
@@ -75,16 +74,15 @@ class JobPostsController extends ResourceController
         $data = $this->request->getPost(array_keys($this->rules));
 
         if (!$this->validateData($data, $this->rules)) {
-            return redirect()->back()->withInput();
+            return view('pages\jobPosts\new', ['data' => $data, 'route' => 'jobs']);
         }
 
-        // If you want to get the validated data.
         $validData = $this->validator->getValidated();
 
         try {
             $this->model->insert($validData);
 
-            return  redirect()->to("job_posting");
+            return redirect()->to("job_posting")->with('result', 'Job post has been created successfully!');
         } catch (\Exception $e) {
             return $e->getMessage();
         }
@@ -114,13 +112,12 @@ class JobPostsController extends ResourceController
             return redirect()->back()->withInput();
         }
 
-        // If you want to get the validated data.
         $validData = $this->validator->getValidated();
 
         try {
             $this->model->update($id, $validData);
 
-            return  redirect()->to("job_posting");
+            return  redirect()->to("job_posting")->with('result', 'Job post has been updated successfully!');
         } catch (\Exception $e) {
             return $e->getMessage();
         }
@@ -129,8 +126,7 @@ class JobPostsController extends ResourceController
     public function delete($id = null)
     {
         $qry = $this->model->where('id', $id)->delete();
-        $data['result'] = $qry;
 
-        return  redirect()->to("job_posting");
+        return  redirect()->to("job_posting")->with('result', 'Job post has been deleted.');
     }
 }

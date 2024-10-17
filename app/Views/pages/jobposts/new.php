@@ -2,24 +2,29 @@
 
 <?= $this->section('content') ?>
     <h3>Create New Job Post</h3>
-    <?= validation_list_errors() ?>
-
+    <?php if (validation_errors()) { ?>
+    <div class="alert alert-danger d-flex align-items-center" role="alert">
+        <div>
+            <?= validation_list_errors() ?>
+        </div>
+    </div>
+    <?php } ?>
     <?= form_open(base_url('job_posting')) ?>
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" name="name" class="form-control" id="name" placeholder="Position" >
+            <input type="text" name="name" class="form-control" id="name" placeholder="Position" value="<?= @$data['name'] ?: '' ?>">
         </div>
         <div class="form-group">
             <label for="description">Description</label>
-            <input type="text" name="description" class="form-control" id="description" placeholder="Description">
+            <input type="text" name="description" class="form-control" id="description" placeholder="Description" value="<?= @$data['description'] ?: '' ?>">
         </div>
         <div class="form-group">
             <label for="salary">Salary</label>
-            <input type="number" name="salary" step="0.01" class="form-control" id="salary" placeholder="10000">
+            <input type="number" name="salary" step="0.01" class="form-control" id="salary" placeholder="10000" value="<?= @$data['salary'] ?: '' ?>">
         </div>
         <div class="form-group">
             <label for="date_post">Date Posted</label>
-            <input type="date" name="date_post"  class="form-control" id="date_post">
+            <input type="date" name="date_post"  class="form-control" id="date_post" value="<?= @$data['date_post'] ?: '' ?>">
         </div>
         <div style="float: right; margin-top: 5px;">
             <a type="button" class="btn btn-danger" href="<?= base_url('job_posting') ?>">Cancel</a>

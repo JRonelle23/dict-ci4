@@ -1,10 +1,16 @@
 <?= $this->extend('app') ?>
 
 <?= $this->section('content') ?>
-    <h1>Job Posting <a type="button" class="btn btn-success" href="<?= base_url('job_posting/new' )?>"><i class=""></i> New</a></h1>
+    <h1 class="mb-3">Job Posting <a type="button" class="btn btn-success" href="<?= base_url('job_posting/new' )?>"><i class=""></i> New</a></h1>
 
-    <?php //var_dump($data['jobs']);exit(); ?>
-    <table class="table mt-5">
+    <?php if (session('result')) { ?>
+    <div class="alert alert-success alert-dismissible fade show mb-3" role="alert">
+        <?= session('result') ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <?php } ?>
+
+    <table class="table">
         <thead>
         <tr>
             <th scope="col">#</th>
