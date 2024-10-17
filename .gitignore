@@ -20,4 +20,7 @@ application/logs/*
 .idea
 .idea/dict-ci4.iml
 composer.lock
-writable/logs/log-2024-10-16.log
+writable/logs/
+writable/logs/*
+/writable/
+/writable/*
