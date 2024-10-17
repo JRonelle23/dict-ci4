@@ -8,6 +8,7 @@ class AboutController extends BaseController
     {
         $data['page_title'] = 'About Page';
         $data['sub_header'] =  'About Sub Header';
+        $data['route'] =  'about';
 
         return view('pages\about', $data);
     }

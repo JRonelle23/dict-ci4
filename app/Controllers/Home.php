@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('pages\home');
+        return view('pages\home', ['route' => 'home']);
     }
 }
