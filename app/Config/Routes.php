@@ -7,11 +7,15 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/about', 'AboutController::index');
+$routes->get('/about', 'AboutController::index', ['filter' => 'guestFilter']);
 $routes->get('/contactus', 'ContactUsController::index');
 
-$routes->resource('/job_posting',  ['controller' => 'JobPostsController']);
+$routes->resource('/job_posting',  ['controller' => 'JobPostsController', 'filter' => 'authFilter']);
 
+$routes->get('/register', 'auth\RegisterController::index');
+$routes->post('/register', 'auth\RegisterController::create');
+
+$routes->get('/login', 'auth\LoginController::index');
 
 //$routes->get('photos/new', 'Photos::new');
 //$routes->post('photos', 'Photos::create');
