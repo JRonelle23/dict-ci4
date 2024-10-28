@@ -42,7 +42,7 @@ class RegisterController extends BaseController
             return redirect()->to("login");
         }else{
             $data['validation'] = $this->validator;
-            return view('register', $data);
+            return view('pages\auth\register', $data);
         }
     }
 }

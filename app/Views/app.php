@@ -32,13 +32,20 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Logout</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= (@$route == 'login') ? 'active' : '' ?>" href="<?= base_url('/login') ?>">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= (@$route == 'register') ? 'active' : '' ?>" href="<?= base_url('/register') ?>">Register</a>
-                    </li>
+                    <?php
+                    $session = session();
+                    if(($session->has('is_logged_in'))) { ?>
+                        <?= form_open(base_url('logout')) ?>
+                            <li class="nav-item"><button type="submit" class="nav-link link-body-emphasis px-2">Logout</button></li>
+                        <?= form_close() ?>
+                    <?php } else { ?>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (@$route == 'login') ? 'active' : '' ?>" href="<?= base_url('/login') ?>">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (@$route == 'register') ? 'active' : '' ?>" href="<?= base_url('/register') ?>">Register</a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>

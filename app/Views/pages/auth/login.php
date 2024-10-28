@@ -10,7 +10,7 @@
                 </div>
             </div>
         <?php } ?>
-        <?= form_open(base_url('login')) ?>
+        <?= form_open(base_url('authenticate')) ?>
         <div class="form-group mb-2">
             <label for="email">Email</label>
             <input type="email" name="email" class="form-control" id="description" value="<?= @$data['email'] ?: '' ?>">

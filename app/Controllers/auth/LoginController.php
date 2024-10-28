@@ -18,7 +18,6 @@ class LoginController extends BaseController
 
     public function authenticate()
     {
-        $session = session();
         $userModel = new User();
 
         $email = $this->request->getVar('email');
@@ -39,17 +38,20 @@ class LoginController extends BaseController
         $ses_data = [
             'id' => $user['id'],
             'email' => $user['email'],
-            'isLoggedIn' => TRUE
+            'is_logged_in' => TRUE
         ];
-
+        $session = session();
         $session->set($ses_data);
+//        var_dump($session->get());exit();
+
         return redirect()->to('/');
 
 
     }
 
     public function logout() {
-        session_destroy();
-        return redirect()->to('/login');
+        $session = session();
+        $session->destroy();
+        return redirect()->to('/');
     }
 }
